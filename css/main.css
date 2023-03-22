@@ -1,0 +1,121 @@
+/* Reset all of the defaults to 0 so 
+that you can write your own CSS */
+/* DONT RELY ON BROWSER DEFAULTS */
+
+* {
+    border:none;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+header {
+    padding-top: 10px;
+    background-color: lightblue;
+
+}
+
+header > img {
+    width: 146px;
+    height: 187px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+header > h1 {
+    text-align:center;
+    color: black;
+    padding-bottom: 10px;
+}
+
+body {
+    font-size:16px;
+    color:black;
+    font-family: 'Caveat', cursive;
+    font-size: 22px;
+    background-image: url('../images/cat_wallpaper.jpg');
+    text-align: center;
+}
+
+article {
+    display: inline-block;
+    margin: 30px 10px 10px 20px;
+    box-shadow: 5px 5px 5px darkgrey;
+    color: darkblue;
+    position: relative;
+}
+
+.todo_list {
+    background-color: rgb(255, 234, 0);
+    text-align: left;
+    position: relative;
+}
+
+.todo_list > h2 {
+    color:darkblue;
+    text-align: left;
+    padding: 20px 20px 20px 20px;
+    text-decoration: underline;
+
+}
+
+.todo_list > ul {
+    padding-right: 150px;
+}
+
+.inprogress_list {
+    background-color: rgb(255, 7, 98);
+    position: relative;
+}
+
+.inprogress_list > h2 {
+    color:darkblue;
+    text-align: left;
+    padding: 20px 20px 20px 20px;
+    text-decoration: underline;
+}
+
+ ul li {
+    position: relative;
+    list-style: none;
+}
+
+ul li label {
+    position: relative;
+    display: flex;
+}
+
+ul li label input {
+    position: relative;
+    cursor: pointer;
+       
+}
+
+ul li label p {
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+
+.completed_list {
+    background-color: rgb(13, 171, 16);
+    position: relative;
+    text-align: left; 
+}
+
+.completed_list > h2 {
+    color:darkblue;
+    text-align: left;
+    padding: 20px 20px 20px 20px;
+    text-decoration: underline;
+}
+
+
+ul {
+    list-style-type:none;
+    padding-left: 20px;
+    padding-right: 300px;
+    padding-bottom: 25px;
+    position: relative;
+}
