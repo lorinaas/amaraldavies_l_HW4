@@ -3,10 +3,10 @@ that you can write your own CSS */
 /* DONT RELY ON BROWSER DEFAULTS */
 
 * {
-    border:none;
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -16,25 +16,25 @@ header {
 
 }
 
-header > img {
+header>img {
     width: 146px;
     height: 187px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
-header > h1 {
-    text-align:center;
+header>h1 {
+    text-align: center;
     color: black;
     padding-bottom: 10px;
 }
 
 body {
-    font-size:16px;
-    color:black;
+    font-size: 16px;
+    color: black;
     font-family: 'Caveat', cursive;
     font-size: 22px;
-    background-image: url('../images/cat_wallpaper.jpg');
+    background-image: url('../img/cat_wallpaper.jpg');
     text-align: center;
 }
 
@@ -52,15 +52,15 @@ article {
     position: relative;
 }
 
-.todo_list > h2 {
-    color:darkblue;
+.todo_list>h2 {
+    color: darkblue;
     text-align: left;
     padding: 20px 20px 20px 20px;
     text-decoration: underline;
 
 }
 
-.todo_list > ul {
+.todo_list>ul {
     padding-right: 40px;
 }
 
@@ -70,14 +70,14 @@ article {
     text-align: left;
 }
 
-.inprogress_list > h2 {
-    color:darkblue;
+.inprogress_list>h2 {
+    color: darkblue;
     text-align: left;
     padding: 20px 20px 20px 20px;
     text-decoration: underline;
 }
 
- ul li {
+ul li {
     position: relative;
     list-style: none;
 }
@@ -94,7 +94,7 @@ ul li label {
 
 ul li label input {
     position: relative;
-       
+
 }
 
 ul li label p {
@@ -105,11 +105,11 @@ ul li label p {
 .completed_list {
     background-color: rgb(13, 171, 16);
     position: relative;
-    text-align: left; 
+    text-align: left;
 }
 
-.completed_list > h2 {
-    color:darkblue;
+.completed_list>h2 {
+    color: darkblue;
     text-align: left;
     padding: 20px 20px 20px 20px;
     text-decoration: underline;
@@ -121,7 +121,7 @@ ul li label p {
 }
 
 ul {
-    list-style-type:none;
+    list-style-type: none;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 25px;
@@ -134,7 +134,8 @@ ul {
     grid-template-columns: 1em auto;
     gap: 0.5em;
 }
-article >h2 {
+
+article>h2 {
     color: rgb(51, 11, 28);
     padding: 12px 8px;
     font-weight: bold;
@@ -174,11 +175,11 @@ input[type="checkbox"]::before {
     clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
 }
 
-input[type="checkbox"]:checked::before {transform: scale(1);}
+input[type="checkbox"]:checked::before {
+    transform: scale(1);
+}
 
 
 input:focus {
     transform: scale(2);
-  }
-
-  
+}
